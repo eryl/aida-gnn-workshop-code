@@ -22,14 +22,30 @@ The learning material is centered around notebooks, it is a suitable platform fo
 
 The notebooks are designed to either 1) be run from your own computer, in which case you need to perform the installation steps below, or 2) From Google Colab in which case you need to follow the instructions "Google Colab" below.
 
-Installing dependencies
-=======================
+Installing dependencies for local use
+=====================================
 First clone this repository using git:
 
 ```shell
 #Download the workshop material (this repository)
-> git clone 
+> git clone git@github.com:eryl/aida-gnn-workshop-code.git
 ```
+This workshop assumes you are using [Anaconda](https://www.anaconda.com/) (or a variant like [miniforge](https://github.com/conda-forge/miniforge)), so install one if you don't have it. 
+
+Create the environment for the workshop by running:
+
+```shell
+# Create workshop environment "aida_workshop_gnn"
+> conda env create -f environment.yml
+```
+
+Which will install all necessary requirements. Start the local jupyter server by running
+```
+# Start the jupyter notebook server
+> jupyter notebooks
+```
+
+
 
 Processing the image data (outside the workshop scope)
 ======================================================
