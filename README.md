@@ -39,19 +39,34 @@ First clone this repository using git:
 ```
 This workshop assumes you are using [Anaconda](https://www.anaconda.com/) (or a variant like [miniforge](https://github.com/conda-forge/miniforge)), so install one if you don't have it. 
 
-Create the environment for the workshop by running:
+It is highly suggested that you use the `libmamba` dependency solver, the default conda solver is extremely slow for this relatively complex environment file:
 
 ```shell
 # Create workshop environment "aida_workshop_gnn"
-> conda env create -f environment.yml
+> conda install -n base conda-libmamba-solver # install the libmamba solver to the base environment
+> conda env create -f environment.yml --solver=libmamba  # Create the environemnt
 ```
 
-Which will install all necessary requirements. Start the local jupyter server by running
+Which will install all necessary requirements. Activate the environment by running:
+```shell
+# Create workshop environment "aida_workshop_gnn"
+> conda activate aida_workshop_gnn
 ```
+
+Start the local jupyter server by running
+```shell
 # Start the jupyter notebook server
 > jupyter notebooks
 ```
 
+As an alternative to using `conda` above, we recommend that you install [`mamba`](https://github.com/mamba-org/mamba) instead, which makes all these installations much faster:
+
+```shell
+# Install the free mamba tool
+> conda install -n base mamba -c conda-forge
+# Create workshop environment "aida_workshop_gnn"
+> mamba env create -f environment.yml
+```
 
 
 Processing the image data (outside the workshop scope)
