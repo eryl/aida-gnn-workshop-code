@@ -22,6 +22,14 @@ The learning material is centered around notebooks, it is a suitable platform fo
 
 The notebooks are designed to either 1) be run from your own computer, in which case you need to perform the installation steps below, or 2) From Google Colab in which case you need to follow the instructions "Google Colab" below.
 
+Workshop notebooks:
+    - [Graph basics](notebooks/graph_basics.ipynb) ([colab](https://colab.research.google.com/github/eryl/aida-gnn-workshop-code/blob/main/notebooks/graph_basics.ipynb))
+    - [Pytorch Geometric](notebooks/pytorch_geometric.ipynb) ([colab](https://colab.research.google.com/github/eryl/aida-gnn-workshop-code/blob/main/notebooks/pytorch_geometric.ipynb))
+    - [Working with data](notebooks/working_with_data.ipynb) ([colab](https://colab.research.google.com/github/eryl/aida-gnn-workshop-code/blob/main/notebooks/working_with_data.ipynbb))
+    - [Customizing architecture](notebooks/customizing_architectures.ipynb) ([colab](https://colab.research.google.com/github/eryl/aida-gnn-workshop-code/blob/main/notebooks/customizing_architectures.ipynb))
+
+Open notebook on [CoLab](https://colab.research.google.com/github/eryl/aida-gnn-workshop-code/blob/main/notebooks/graph_basics.ipynb)
+
 Installing dependencies for local use
 =====================================
 First clone this repository using git:
