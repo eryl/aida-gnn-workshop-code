@@ -9,13 +9,15 @@ dependencies:
   - numpy
   - scipy
   - scikit-learn
+  - matplotlib
   - pandas
   - tqdm
   - pytorch
-  - torchvision
-  - torchaudio
+#  - torchvision
+#  - torchaudio
   - pytorch-cuda=11.8
   - cudatoolkit=11.8
+  - tensorboard
   - jupyter
   - ipython
   - lightning
