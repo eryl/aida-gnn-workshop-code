@@ -25,7 +25,7 @@ The notebooks are designed to either 1) be run from your own computer, in which 
 Workshop notebooks:
     - [Graph basics](notebooks/graph_basics.ipynb) ([colab](https://colab.research.google.com/github/eryl/aida-gnn-workshop-code/blob/main/notebooks/graph_basics.ipynb))
     - [Pytorch Geometric](notebooks/pytorch_geometric.ipynb) ([colab](https://colab.research.google.com/github/eryl/aida-gnn-workshop-code/blob/main/notebooks/pytorch_geometric.ipynb))
-    - [Working with data](notebooks/working_with_data.ipynb) ([colab](https://colab.research.google.com/github/eryl/aida-gnn-workshop-code/blob/main/notebooks/working_with_data.ipynbb))
+    - [Working with data](notebooks/working_with_data.ipynb) ([colab](https://colab.research.google.com/github/eryl/aida-gnn-workshop-code/blob/main/notebooks/working_with_data.ipynb))
     - [Customizing architecture](notebooks/customizing_architectures.ipynb) ([colab](https://colab.research.google.com/github/eryl/aida-gnn-workshop-code/blob/main/notebooks/customizing_architectures.ipynb))
 
 Open notebook on [CoLab](https://colab.research.google.com/github/eryl/aida-gnn-workshop-code/blob/main/notebooks/graph_basics.ipynb)
