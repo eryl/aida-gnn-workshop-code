@@ -3,21 +3,26 @@ channels:
   - conda-forge
   - pytorch
   - nvidia
-  - rapidsai
+  - pyg
 dependencies:
   - python=3.9
-  - pip
-#  - mamba
+  - numpy
+  - scipy
+  - scikit-learn
+  - pandas
+  - tqdm
   - pytorch
-  - jupyter
-  - ipython
   - torchvision
   - torchaudio
   - pytorch-cuda=11.8
-  - ca-certificates
-  - certifi
-  - openssl
   - cudatoolkit=11.8
-  - cucim
-
+  - jupyter
+  - ipython
+  - lightning
+  - pyg # Pytorch Geometric
+# The following are good packages to have with Pytorch Geometric, but causes issues with dynamic libraries
+#  - pytorch-cluster
+#  - pytorch-scatter
+#  - pytorch-sparse
+#  - pytorch-spline-conv
 
