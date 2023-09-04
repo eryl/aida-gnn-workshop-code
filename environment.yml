@@ -1,0 +1,23 @@
+name: aida_workshop_gnn
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+  - rapidsai
+dependencies:
+  - python=3.9
+  - pip
+#  - mamba
+  - pytorch
+  - jupyter
+  - ipython
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.8
+  - ca-certificates
+  - certifi
+  - openssl
+  - cudatoolkit=11.8
+  - cucim
+
+
