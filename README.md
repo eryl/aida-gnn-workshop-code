@@ -27,6 +27,7 @@ Workshop notebooks:
  - [Working with data](notebooks/working_with_data.ipynb) ([colab](https://colab.research.google.com/github/eryl/aida-gnn-workshop-code/blob/main/notebooks/working_with_data.ipynb))
  - [Customizing architecture](notebooks/customizing_architectures.ipynb) ([colab](https://colab.research.google.com/github/eryl/aida-gnn-workshop-code/blob/main/notebooks/customizing_architectures.ipynb))
 
+While not planned for the workshop, an extra notebook which covers node features in more detailed can be found in [Representing Graphs for Neural Networks](notebooks/representing_graphs_for_neural_networks_solutions.ipynb) ([colab](https://colab.research.google.com/github/eryl/aida-gnn-workshop-code/blob/main/notebooks/representing_graphs_for_neural_networks_solutions.ipynb))
 
 Installing dependencies for local use
 =====================================
